@@ -8,3 +8,7 @@ H2O, H2SO4, K2Cr2O7
 tert-butyl lithium, o-xylene, trans-anethole
 
 N,N-dimethyltryptamine
+
+alpha-pinene, beta-hydride
+
+D2O, Et2O, EtOAc2
