@@ -4,7 +4,7 @@ A utility package for displaying IUPAC nomenclature and chemical formulae withou
 ## Example Usage
 
 ```typ
-#import "@preview/chem-par@0.1.0": *
+#import "@preview/chem-par:0.0.1": *
 
 #set page(width: 30em, height: auto, margin: 1em)
 #show: chem-style
@@ -13,3 +13,7 @@ The oxidation of n-butanol with K2Cr2O7 requires acidification with H2SO4 to yie
 ```
 
 ![Example output](gallery/example.typ.png "Example Output")
+
+Works on most of the common things a chemist would type
+
+![Example output](gallery/test.typ.png "Example Output")
