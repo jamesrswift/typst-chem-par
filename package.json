@@ -1,6 +1,6 @@
 {
   "name": "typst-chem-par",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Display chemical formulae and IUPAC nomenclature with ease",
   "main": "index.js",
   "directories": {
