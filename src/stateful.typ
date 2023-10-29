@@ -5,6 +5,6 @@
 #let if-state-enabled( it , fn ) = {
     Chemistry-Style-disable-state.display(bDisable =>{
       if ( bDisable == false ){ return it }
-      return fn()
+      return fn
     })
 }
