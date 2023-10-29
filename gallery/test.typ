@@ -12,10 +12,12 @@ tert-butyl lithium, o-xylene, trans-anethole
 N,N-dimethyltryptamine,
 N,N′-Dicyclohexylcarbodiimide
 
-N,N'-Dicyclohexylcarbodiimide
+syn-, anti-, exo-, endo-
 
 alpha-pinene, beta-hydride
 
 D2O, Et2O, EtOAc2, OPR3
 
 D-glucose, L-limonene
+
+Acetone-d6. 

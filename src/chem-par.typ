@@ -9,6 +9,7 @@
   show: rules.enantiomers
   show: rules.greek
   show: rules.fischer-dropcaps
+  show: rules.deuterated
 
   body
 }
