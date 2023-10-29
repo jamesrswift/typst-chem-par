@@ -11,7 +11,7 @@
     } )
   }
 
-  show regex("(((iso)|(sec)|(tert)|(cis)|(trans)|[iompnN])-)|(N,)"): (it) => {
+  show regex("(((iso)|(sec)|(tert)|(cis)|(trans)|[iompnN])-)|(N,)|(O,)"): (it) => {
     if-state-enabled( it , {
       show "-": "–"
       emph(it)
