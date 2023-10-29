@@ -8,3 +8,9 @@
       return fn
     })
 }
+
+#let chem-disabled(content) = {
+  chem-toggle(false)
+  content
+  chem-toggle(true)
+}
