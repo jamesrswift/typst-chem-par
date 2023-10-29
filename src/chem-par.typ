@@ -8,6 +8,7 @@
   show: rules.isomers
   show: rules.enantiomers
   show: rules.greek
+  show: rules.fischer-dropcaps
 
   body
 }

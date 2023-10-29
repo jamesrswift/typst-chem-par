@@ -5,7 +5,7 @@
 #let all-elements = elements + pseudo-elements
 #all-elements = all-elements.sorted( (it) => it.len() )
 
-#let ChemRegex = "(\(?((" + all-elements.map(it=>{"("+it+")"}).join("|") + ")+\d?)+(\)\d*)?(\d*([\+-]\W)?)*)"
+#let ChemRegex = "(\(?((" + all-elements.map(it=>{"("+it+")"}).join("|") + ")+\d?)+(\)\d*)?(\d*([\+-])?)*)"
 
 #let formulae(body) = {
   show regex(ChemRegex): (it) => {

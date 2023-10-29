@@ -1,10 +1,14 @@
 #import "../stateful.typ": *
+#import "../constants.typ"
 
 #let greek(body) = {
     if-state-enabled( body , {
-        show regex("alpha-"): $alpha$ + "-"
-        show regex("beta-"): $beta$ + "-"
-        show regex("gamma-"): $gamma$ + "-"
+        show: it => {
+            for (k, v) in constants.greek {
+                it = {show k + "-": v + "-"; it}
+            }
+            it
+        }
         body
     })
 }

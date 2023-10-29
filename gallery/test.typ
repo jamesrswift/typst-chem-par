@@ -5,10 +5,17 @@
 
 H2O, H2SO4, K2Cr2O7
 
+Cl-, O2-, H+, Mg2+
+
 tert-butyl lithium, o-xylene, trans-anethole
 
-N,N-dimethyltryptamine
+N,N-dimethyltryptamine,
+N,N′-Dicyclohexylcarbodiimide
+
+N,N'-Dicyclohexylcarbodiimide
 
 alpha-pinene, beta-hydride
 
-D2O, Et2O, EtOAc2
+D2O, Et2O, EtOAc2, OPR3
+
+D-glucose, L-limonene

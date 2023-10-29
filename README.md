@@ -9,7 +9,7 @@ A utility package for displaying IUPAC nomenclature and chemical formulae withou
 #set page(width: 30em, height: auto, margin: 1em)
 #show: chem-style
 
-The oxidation of n-butanol with K2Cr2O7 requires acidification with H2SO4 to yield butanoic acid. N,N-chemicolium.
+The oxidation of n-butanol with K2Cr2O7 requires acidification with H2SO4 to yield butanoic acid. N,N-dimethyltryptamine.
 ```
 
 ![Example output](gallery/example.typ.png "Example Output")
