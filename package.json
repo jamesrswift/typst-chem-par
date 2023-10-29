@@ -1,0 +1,44 @@
+{
+  "name": "typst-chem-par",
+  "version": "0.0.0",
+  "description": "Display chemical formulae and IUPAC nomenclature with ease",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gallery": "call scripts/gallery.bat",
+    "docs": "typst c manual.typ",
+    "dev:commit": "npm run release:commit && npm run release:commit:push",
+    "dev:publish": "npm run docs && git add -A && npm run release:semver && npm run release:package && npm run release:publish",
+    "release:commit": "git add -A && git cz",
+    "release:commit:push": "git push",
+    "release:semver": "standard-version",
+    "release:package": "call scripts/package.bat",
+    "release:publish": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesxX/typst-chem-par.git"
+  },
+  "keywords": [
+    "typst",
+    "chemistry",
+    "IUPAC"
+  ],
+  "author": "James (Fuzzy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesxX/typst-chem-par/issues"
+  },
+  "homepage": "https://github.com/JamesxX/typst-chem-par#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
