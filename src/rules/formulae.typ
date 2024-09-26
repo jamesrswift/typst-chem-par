@@ -10,7 +10,7 @@
 #let formulae(body) = {
   show regex(ChemRegex): (it) => {
     if-state-enabled( it , {
-      show regex("\d"): sub
+      show regex("\d"): set text(features: ("sinf", "subs"))
       show regex("\d*[+-]"): super
       it
     })
