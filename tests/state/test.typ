@@ -1,4 +1,4 @@
-#import "../src/lib.typ": *
+#import "/src/lib.typ": *
 
 #set page(width: 30em, height: auto)
 #show: chem-style

@@ -1,10 +1,18 @@
 [package]
 name = "chem-par"
-version = "0.1.0"
+version = "0.2.0"
 entrypoint = "src/lib.typ"
-authors = ["James (Fuzzy) Swift"]
+authors = ["James Rupert Swift",]
 license = "MIT"
 description = "Display chemical formulae and IUPAC nomenclature with ease"
-repository = "https://github.com/JamesxX/typst-chem-par"
+repository = "https://github.com/jamesrswift/typst-chem-par"
 keywords = ["chemistry", "IUPAC"]
-exclude = ["/assets/*", "/scripts/*","/gallery/*", "/manual.pdf", "/manual.typ", "/.gitignore", "/package.json", "/package-lock.json"]
+exclude = [
+    "assets",
+	".github",
+	"docs",
+	"scripts",
+	"tests",
+	".typstignore",
+	"Justfile",
+]
