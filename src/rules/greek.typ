@@ -1,7 +1,7 @@
 #import "../stateful.typ": *
 #import "../constants.typ"
 
-#let greek(body) = {
+#let greek(body) = context {
     if-state-enabled( body , {
         show: it => {
             for (k, v) in constants.greek {
